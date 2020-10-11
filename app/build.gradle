@@ -48,4 +48,13 @@ dependencies {
 
     // QR Code generator and scanner
     implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+
+    // Floating Action Button Library
+    implementation 'com.github.clans:fab:1.6.4'
+
+    // Round Horizontal Progress Library
+    implementation 'com.sasank.roundedhorizontalprogress:roundedhorizontalprogress:1.0.1'
+
+    // Number Sliding Library
+    implementation 'com.github.sephiroth74:NumberSlidingPicker:1.0.3'
 }

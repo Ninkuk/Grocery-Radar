@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Item name" />
+
+    <com.google.android.material.chip.Chip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="tag"
+        android:textColor="@android:color/white"
+        app:chipBackgroundColor="@color/lightBlue" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <it.sephiroth.android.library.numberpicker.NumberPicker
+        android:id="@+id/numberPicker"
+        style="@style/NumberPicker.Filled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progress="1"
+        app:picker_max="10"
+        app:picker_min="1"
+        app:picker_orientation="vertical"
+        app:picker_stepSize="1"
+        app:picker_tracker="exponential" />
+
+</LinearLayout>
