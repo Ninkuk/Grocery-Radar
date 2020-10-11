@@ -19,19 +19,20 @@
             android:paddingTop="20dp"
             android:paddingEnd="20dp"
             android:text="@string/new_group"
-            android:textColor="#212121"
             android:textAlignment="textStart"
+            android:textColor="#212121"
             android:textSize="20sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/GroupTextInputLayout"
-            style="@style/Widget.Design.TextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/group_name"
-            android:padding="20dp"
-            android:textColorHint="#99FFFFFF">
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="#696969">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/GroupTextView"

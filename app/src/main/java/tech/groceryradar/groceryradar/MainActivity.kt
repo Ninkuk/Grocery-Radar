@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             negativeButton.setTextColor(Color.parseColor("#F44336"))
             val positiveButton = alert.getButton(DialogInterface.BUTTON_POSITIVE)
             positiveButton.setBackgroundResource(0)
-            positiveButton.setTextColor(Color.parseColor("#00674b"))
+            positiveButton.setTextColor(Color.parseColor("#00e676"))
         }
 
     }
