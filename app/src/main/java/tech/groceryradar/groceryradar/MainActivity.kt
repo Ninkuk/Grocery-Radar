@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val groups = mutableListOf<Group>()
 
         groupRecyclerView.layoutManager = GridLayoutManager(this, 2)
-        val adapter: GroupRecyclerAdapter = GroupRecyclerAdapter(groups)
+        val adapter = GroupRecyclerAdapter(groups)
         groupRecyclerView.adapter = adapter
 
         //loads the groups that the user is in
@@ -58,10 +58,10 @@ class MainActivity : AppCompatActivity() {
                             tagsList
                         )
                     )
+                    adapter.notifyDataSetChanged()
                 }
             }
 
-            adapter.notifyDataSetChanged()
         }
 
         joinListBtn.setOnClickListener {
