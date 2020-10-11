@@ -1,3 +1,3 @@
 # Grocery-Radar
 
-[]('Grocery Radar Wordmark.png')
+[]("Grocery Radar Wordmark.png")
