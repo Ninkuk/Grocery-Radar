@@ -17,9 +17,9 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/groupRecyclerView"
-            android:layout_width="409dp"
-            android:layout_height="729dp"
-            android:layout_marginTop="10dp">
+            android:layout_marginStart="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         </androidx.recyclerview.widget.RecyclerView>
 
@@ -30,7 +30,9 @@
             app:menu_colorNormal="@color/colorPrimary"
             app:menu_colorPressed="@color/teal"
             app:menu_colorRipple="@color/teal"
-            app:menu_fab_label="New List">
+            app:menu_fab_label="New List"
+            tools:ignore="RtlHardcoded"
+            android:padding="10dp">
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/joinListBtn"
